@@ -28,15 +28,20 @@
         </style>
         <br>
         <br>
-        Simplicity is a snit more different than the Atmos Engine (Which will be saved for later). Rather than 3D models it'll have 8 directional sprites. It's a first person game which is built from DirectX 8. This is gonna be a gift to the homebrew community and the fans of the OG Xbox. An easy to mod engine with a limited but good community.<br>
+        Simplicity is a snit more different than the Atmos Engine (Which will be saved for later). Rather than 3D models it'll have 8 directional sprites. It's a third person game which is built from DirectX 8. This is gonna be a gift to the homebrew community and the fans of the OG Xbox. An easy to mod engine with a limited but good community.<br>
         <br>
         The game is downloadable as a demo/prototype. Featuring map loading from a single file, map geometry with diffuse and lightmap support, sprite placing and up and down look.<br>
         <a href="Simplicity Engine/Simplicity Demo.zip" download>
-            <p style="font-size:120%;text-align:center;">Download the Prototype</p>
+            <p style="font-size:120%;text-align:center;">Download the Prototype (V.2)</p>
         </a>
         <br>
         <br>
-        Instructions will be added later. Until then you can look up the media files and figure out how things work for yourself.<br>
+        <p style="font-size:120%;text-align:center;">Instructions</p>
+        Extract the file and put the folder into your Xbox where you store the rest of your games. When running, the game loads a text file called "GameStartup.txt" which loads a .lvl and .ent file found in Media/Maps. .lvl is the map geometry, .ent is the entity loader. You can edit the map files to your desire and make your own levels with Blender or any other mesh editor. The level geometry is split into multiple files in the level's data folder (Which should be in the same area as .lvl) as well as keeping the lightmaps.<br>
+        <br>
+        The lvl files starts with the map name and the number of geometry files to use. Starts with the geometry's name, texture and lightmap. Textures are placed in Media/Textures and lightmaps in the level's data folder (Note, textures can't be any other type but PNG except for lightmaps). the ent file starts with the amount of entities, the ambient track, skybox name and player orientation(X pos Y pos Z pos and (Unused)  rotation). List of entities are currently only limited to the "FixedSprite" which has the position, scale and texture name. Don't write anything else but FixedSprite when adding. It might cause a crash.<br>
+        <br>
+        Experiment with the controls. There are no collision system yet and you can take screenshots with the X button. That is all.<br>
         <br>
         <br>
         <p style="text-align:center;"><a href="../Plans.html">Go back</a></p>
