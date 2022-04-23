@@ -1,0 +1,10 @@
+@font-face { font-family: Mara; src: url('Squarish Sans CT Regular.ttf'); }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    font-family:Mara;
+    background-color:#fbffff;
+}
