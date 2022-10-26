@@ -1,3 +1,4 @@
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 */Documents/GitHub/Meerjel01.github.io/Videos/Cheaples.mp4 filter=lfs diff=lfs merge=lfs -text
 Cheaples.mp4 filter=lfs diff=lfs merge=lfs -text
+Videos/Cheaples.mp4 filter=lfs diff=lfs merge=lfs -text
